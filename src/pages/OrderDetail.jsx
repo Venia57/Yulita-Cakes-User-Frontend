@@ -513,7 +513,7 @@ const OrderDetail = () => {
                   key={item.id}
                   className="flex flex-col sm:flex-row py-4 space-y-3 sm:space-y-0 sm:space-x-4"
                 >
-                  <div className="flex-shrink-0">
+                  {/* <div className="flex-shrink-0">
                     <img
                       src={
                         item.product?.primary_image_url || "/placeholder.jpg"
@@ -522,7 +522,7 @@ const OrderDetail = () => {
                       className="w-20 h-20 sm:w-24 sm:h-24 rounded-md object-cover border border-gray-200 dark:border-gray-700"
                       loading="lazy"
                     />
-                  </div>
+                  </div> */}
 
                   <div className="relative flex flex-1 flex-col justify-between">
                     {/* Info Produk */}

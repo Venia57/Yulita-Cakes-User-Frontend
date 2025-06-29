@@ -14,7 +14,7 @@ import {
 } from "lucide-react";
 
 const MIDTRANS_CLIENT_KEY =
-  import.meta.env.VITE_MIDTRANS_CLIENT_KEY || "SB-Mid-client-xxxxxxxx";
+  import.meta.env.VITE_MIDTRANS_CLIENT_KEY || "SB-Mid-client-LvBYPyej0_ub6UiB";
 
 const Checkout = () => {
   const { cartItems, authFetch, clearCart, formatCurrency, cartLoading } =
